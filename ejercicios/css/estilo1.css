@@ -1,0 +1,53 @@
+saludo-component {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+saludo-component p {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+saludo-component:hover {
+  background-color: #e6e6e6;
+}
+
+/* Estilo para un botón dentro del componente */
+saludo-component button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+saludo-component button:hover {
+  background-color: #45a049;
+}
+
+.regresar{
+  padding: 10px;
+  border: 3px solid blue;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #ccc;
+  color: #000;
+  margin: 1rem;
+  font-weight: bold;
+}
